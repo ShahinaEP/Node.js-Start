@@ -10,12 +10,12 @@ var server = http.createServer(function(req,res){
        
             if(error){
                 res.writeHead(200,{'content-type':'text/html'});
-                res.write("File write Fail");
+                res.write("File Rename Fail");
                 res.end();
             }
             else{
                 res.writeHead(200,{'content-type':'text/html'});
-                res.write("File write Success");
+                res.write("File Rename Success");
                 res.end();  
             }
         

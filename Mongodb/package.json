@@ -1,5 +1,5 @@
 {
-  "name": "Async",
+  "name": "Mongodb",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,6 +11,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "prompt-sync": "^4.2.0"
+    "mongodb": "^3.6.8"
   }
 }
